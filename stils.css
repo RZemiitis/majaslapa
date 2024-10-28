@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -108,17 +109,12 @@ body {
 
         .song-title {
             font-weight: bold;
-            color: #5c3c1d;
+            color:#af5959;
         }
-
-        .song-description {
-            margin-top: 5px;
-            color: #555;
-        }
-
-        .song-region {
-            font-style: italic;
-            color: #777;
+        .song-title1 {
+            font-weight: bold;
+            color:#5c1d1d;
+            font-size: 20px;
         }
         .pagination {
             display: flex;
@@ -142,15 +138,11 @@ body {
             background-color: #5c1d1d;
             color: #ffffff;
         }
-        
-
         .pagination button.active {
             background-color: #5c1d1d;
             color: #ffffff;
             font-weight: bold;
         }
-        
-
         .pagination button:first-child,
         .pagination button:last-child {
             font-weight: bold;
