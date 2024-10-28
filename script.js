@@ -34,7 +34,7 @@ function searchSongs() {
     
     // Filtrē tautasdziesmas pēc meklēšanas ievades
     let filteredSongs = songsData.filter(song => {
-        return song.tautasdziesma.toLowerCase().includes(input) || 
+        return song.rinda1.toLowerCase().includes(input) || 
                song.rinda2.toLowerCase().includes(input) ||
                song.rinda3.toLowerCase().includes(input) ||
                song.rinda4.toLowerCase().includes(input);
