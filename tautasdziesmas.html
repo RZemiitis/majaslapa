@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latviešu Tautasdziesmu Krātuve</title>
+    <link rel="icon" type="image/x-icon" href="real.jpg">
+    <link rel="stylesheet" href="stils.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Latviešu Tautasdziesmu Krātuve</h1>
+        <nav>
+            <a href="index.html">Sākums</a>
+            <a href="tautasdziesmas.html">Tautasdziesmas</a>
+        </nav>
+    </header>
+
+    <div class="search-container">
+        <h2>Meklēt Tautasdziesmas</h2>
+        <input type="text" id="searchInput" onkeyup="searchSongs()" placeholder="Meklēt tautasdziesmu...">
+        
+        <ul class="tdz-list" id="songList">
+            <!-- Tautasdziesmas tiks ielādētas šeit -->
+        </ul>
+    </div>
+</body>
+</html>

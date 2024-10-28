@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   background-color: #5c1d1d;
+           }
+   
+   header {
+   background-color: #5c1d1d;
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+   position: relative;
+           }
+   
+   header h1 {
+       margin: 0;
+       font-size: 36px;
+           }
+   header h1:hover{
+       text-decoration:underline;
+       color:#89bcc0
+   }
+   
+   header h2 {
+    margin: 0;
+   font-size: 18px;
+   font-style: italic;
+           }
+   
+   nav {
+        margin: 20px 0;
+       }
+   
+   nav a {
+       color: #fff;
+       text-decoration:none;
+       margin: 0 15px;
+       font-size: 18px;
+       text-transform: uppercase;
+           }
+   
+   nav a:hover {
+       text-decoration: underline;
+           color:#89bcc0
+           }
+           .container {
+               max-width: 900px;
+               margin: 50px auto;
+               padding: 20px;
+               background-color: #fff;
+               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+               border-radius: 8px;
+           }
+   
+           body {
+               color: #5c3c1d;
+               text-align: center;
+           }
+   
+           h2 {
+               color: #7b5532;
+           }
+   
+           p {
+               line-height: 1.6;
+               color: #333;
+           }
+   
+           ul {
+               margin-top: 20px;
+               padding-left: 20px;
+           }
+   
+           ul li {
+               margin-bottom: 10px;
+           }
+           .search-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .song-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .song-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .song-list li:last-child {
+            border-bottom: none;
+        }
+
+        .song-title {
+            font-weight: bold;
+            color: #5c3c1d;
+        }
+
+        .song-description {
+            margin-top: 5px;
+            color: #555;
+        }
+
+        .song-region {
+            font-style: italic;
+            color: #777;
+        }
