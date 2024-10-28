@@ -116,6 +116,16 @@ body {
             color:#5c1d1d;
             font-size: 20px;
         }
+
+        .song-description {
+            margin-top: 5px;
+            color: #555;
+        }
+
+        .song-region {
+            font-style: italic;
+            color: #777;
+        }
         .pagination {
             display: flex;
             gap: 8px;
@@ -138,11 +148,13 @@ body {
             background-color: #5c1d1d;
             color: #ffffff;
         }
+        
         .pagination button.active {
             background-color: #5c1d1d;
             color: #ffffff;
             font-weight: bold;
         }
+        
         .pagination button:first-child,
         .pagination button:last-child {
             font-weight: bold;
